@@ -20,7 +20,7 @@
 ## <a name="prerequisites"></a> Prerequisites
 #### テスト環境<br>
 UDP送信デバイス - Android 8.0.0, ios 14.2<br>
-UDP受信デバイス - Windows 10[^1], OSX 10.15.7<br>
+UDP受信デバイス - Windows 10 [注意点][1], OSX 10.15.7<br>
 #### 準備<br>
 nodejsのインストール<br>
 cordova 10.0.0のインストール<br>
@@ -52,5 +52,5 @@ Android Studioを起動し、Import Project(Gradle, Eclipse ADT, etc.)からplat
 Android Studioでbuild, runすることで、app/assets/www/js/index.jsに書かれたUDP送信スクリプトが実行され、Multicast Address 224.0.0.114に送信されます。<br>
 Android Studio上で編集する場合はapp-\>assets-\>www-\>js-\>index.jsを編集してください。(\* Android Studio上での編集は元のwwwフォルダ以下に反映されないので、要コピー)<br>
 
-[^1]: windows10にVirtualboxがインストールされている場合、Multicastをブロックしてしまうので、VirtualBox Host-Only NetworkをDisableにする。<br>
+[1]: windows10にVirtualboxがインストールされている場合、Multicastをブロックしてしまうので、VirtualBox Host-Only NetworkをDisableにする。<br>
 https://windowsreport.com/firewall-blocking-multicast/

@@ -20,7 +20,7 @@
 ## <a name="prerequisites"></a> Prerequisites
 #### テスト環境<br>
 UDP送信デバイス - Android 8.0.0, ios 14.2<br>
-UDP受信デバイス - Windows 10[\*](#warn), OSX 10.15.7<br>
+UDP受信デバイス - Windows 10[\*注意点](#warn), OSX 10.15.7<br>
 #### 準備<br>
 nodejsのインストール<br>
 cordova 10.0.0のインストール<br>

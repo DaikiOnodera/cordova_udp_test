@@ -14,9 +14,11 @@
 
 ## Contents
 
-- [Requirements](#requirements)
+- [Prerequisites](#prerequisites)
 - [Building sample app] (#-building-sample-app)
 - [pitfalls] (#-pitfalls)
 
-## <a name="requirements"></a> Requirements
-this is sample text.
+## <a name="prerequisites"></a> Prerequisites
+テスト環境<br>
+UDP送信デバイス - Android8.0.0, iOS14.2<br>
+UDP受信デバイス - Windows10, OSX10.15.7<br>

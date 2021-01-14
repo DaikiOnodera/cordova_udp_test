@@ -16,7 +16,6 @@
 
 - [Prerequisites](#prerequisites)
 - [Building sample app](#building-sample-app)
-- [pitfalls] (#-pitfalls)
 
 ## <a name="prerequisites"></a> Prerequisites
 #### テスト環境<br>
@@ -25,8 +24,8 @@ UDP受信デバイス - Windows 10, OSX 10.15.7<br>
 #### 準備<br>
 nodejsのインストール<br>
 cordova 10.0.0のインストール<br>
-Xcode 12.3のインストール
-Android Studio 4.1.1のインストール
+Xcode 12.3のインストール<br>
+Android Studio 4.1.1のインストール<br>
 [cordovaのiOS開発環境の設定](https://cordova.apache.org/docs/en/latest/guide/platforms/ios/)<br>
 [cordovaのandroid開発環境の設定](https://cordova.apache.org/docs/en/latest/guide/platforms/android/)<br>
 ## <a name="building-sample-app"></a> Building sample app

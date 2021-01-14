@@ -1,44 +1,42 @@
 {
-  "_from": "cordova-plugin-dgram",
-  "_id": "cordova-plugin-dgram@0.1.5",
+  "_from": "git+https://github.com/digitalcatnip/cordova-plugin-dgram.git",
+  "_id": "cordova-plugin-dgram@0.1.6",
   "_inBundle": false,
-  "_integrity": "sha1-YIoWmabg9PnjtqZsosewlHWZ0oE=",
+  "_integrity": "",
   "_location": "/cordova-plugin-dgram",
   "_phantomChildren": {},
   "_requested": {
-    "type": "tag",
-    "registry": true,
-    "raw": "cordova-plugin-dgram",
-    "name": "cordova-plugin-dgram",
-    "escapedName": "cordova-plugin-dgram",
-    "rawSpec": "",
-    "saveSpec": null,
-    "fetchSpec": "latest"
+    "type": "git",
+    "raw": "https://github.com/digitalcatnip/cordova-plugin-dgram.git",
+    "rawSpec": "https://github.com/digitalcatnip/cordova-plugin-dgram.git",
+    "saveSpec": "git+https://github.com/digitalcatnip/cordova-plugin-dgram.git",
+    "fetchSpec": "https://github.com/digitalcatnip/cordova-plugin-dgram.git",
+    "gitCommittish": null
   },
   "_requiredBy": [
     "#DEV:/",
     "#USER"
   ],
-  "_resolved": "https://registry.npmjs.org/cordova-plugin-dgram/-/cordova-plugin-dgram-0.1.5.tgz",
-  "_shasum": "608a1699a6e0f4f9e3b6a66ca2c7b0947599d281",
-  "_spec": "cordova-plugin-dgram",
-  "_where": "C:\\Users\\daiki\\Playground\\UDPTET\\udp_android_test",
+  "_resolved": "git+https://github.com/digitalcatnip/cordova-plugin-dgram.git#07984909fcb1f1a5b9a52fb1acaee8a80fd82dac",
+  "_spec": "https://github.com/digitalcatnip/cordova-plugin-dgram.git",
+  "_where": "/Users/daikionodera/Playground/udp_test/cordova_test",
   "author": {
     "name": "Andreas Scherer"
   },
   "bugs": {
-    "url": "https://github.com/andischerer/cordova-plugin-dgram/issues"
+    "url": "https://github.com/digitalcatnip/cordova-plugin-dgram/issues"
   },
   "bundleDependencies": false,
   "cordova": {
     "id": "cordova-plugin-dgram",
     "platforms": [
-      "android"
+      "android",
+      "ios"
     ]
   },
   "deprecated": false,
   "description": "Cordova-Plugin which supports node.js dgram API",
-  "homepage": "https://github.com/andischerer/cordova-plugin-dgram#readme",
+  "homepage": "https://github.com/digitalcatnip/cordova-plugin-dgram#readme",
   "keywords": [
     "UDP",
     "Multicast",
@@ -51,7 +49,7 @@
   "name": "cordova-plugin-dgram",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/andischerer/cordova-plugin-dgram.git"
+    "url": "git+https://github.com/digitalcatnip/cordova-plugin-dgram.git"
   },
-  "version": "0.1.5"
+  "version": "0.1.6"
 }

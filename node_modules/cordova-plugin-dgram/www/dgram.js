@@ -3,10 +3,11 @@ var exec = cordova.require('cordova/exec');
 // Events: 'message', 'error'
 function Socket(type, port) {
     this._multicastSocket = type === 'multicast-udp4';
+    this._broadcastSocket = type === 'broadcast-udp4';
     this._socketId = ++Socket.socketCount;
     this._eventHandlers = { };
     Socket.sockets[this._socketId] = this;
-    exec(null, null, 'Dgram', 'create', [ this._socketId, this._multicastSocket, port ]);
+    exec(null, null, 'Dgram', 'create', [ this._socketId, this._multicastSocket, this._broadcastSocket, port ]);
 }
 
 Socket.socketCount = 0;
@@ -27,14 +28,15 @@ Socket.prototype.close = function () {
     this._socketId = 0;
 };
 
-// sends utf-8
-Socket.prototype.send = function (buffer, destAddress, destPort, callback) {
+// sends utf-8 or base64 based on encoding
+Socket.prototype.send = function (buffer, destAddress, destPort, callback, encoding) {
     callback = callback || function () { };
+    encoding = encoding || 'utf-8';
     exec(callback.bind(null, null), // success
          callback.bind(null), // failure
          'Dgram',
          'send',
-         [ this._socketId, buffer, destAddress, destPort ]);
+         [ this._socketId, buffer, destAddress, destPort, encoding ]);
 };
 
 Socket.prototype.address = function () {
@@ -53,8 +55,8 @@ Socket.prototype.leaveGroup = function (address, callback) {
 };
 
 function createSocket(type, port) {
-    if (type !== 'udp4' && type !== 'multicast-udp4') {
-        throw new Error('Illegal Argument, only udp4 and multicast-udp4 supported');
+    if (type !== 'udp4' && type !== 'multicast-udp4' && type !== 'broadcast-udp4') {
+        throw new Error('Illegal Argument, only udp4, multicast-udp4 and broadcast-udp4 supported');
     }
     iport = parseInt(port, 10);
     if (isNaN(iport) || iport === 0){

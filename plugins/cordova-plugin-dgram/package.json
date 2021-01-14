@@ -1,0 +1,57 @@
+{
+  "_from": "cordova-plugin-dgram",
+  "_id": "cordova-plugin-dgram@0.1.5",
+  "_inBundle": false,
+  "_integrity": "sha1-YIoWmabg9PnjtqZsosewlHWZ0oE=",
+  "_location": "/cordova-plugin-dgram",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-plugin-dgram",
+    "name": "cordova-plugin-dgram",
+    "escapedName": "cordova-plugin-dgram",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-dgram/-/cordova-plugin-dgram-0.1.5.tgz",
+  "_shasum": "608a1699a6e0f4f9e3b6a66ca2c7b0947599d281",
+  "_spec": "cordova-plugin-dgram",
+  "_where": "C:\\Users\\daiki\\Playground\\UDPTET\\udp_android_test",
+  "author": {
+    "name": "Andreas Scherer"
+  },
+  "bugs": {
+    "url": "https://github.com/andischerer/cordova-plugin-dgram/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-dgram",
+    "platforms": [
+      "android"
+    ]
+  },
+  "deprecated": false,
+  "description": "Cordova-Plugin which supports node.js dgram API",
+  "homepage": "https://github.com/andischerer/cordova-plugin-dgram#readme",
+  "keywords": [
+    "UDP",
+    "Multicast",
+    "Datagram",
+    "dgram",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "license": "MIT",
+  "name": "cordova-plugin-dgram",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andischerer/cordova-plugin-dgram.git"
+  },
+  "version": "0.1.5"
+}

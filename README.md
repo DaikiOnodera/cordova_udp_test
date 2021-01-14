@@ -41,7 +41,7 @@ cordova plugin add https://github.com/digitalcatnip/cordova-plugin-dgram.git
 cordova build ios
 open platforms/ios/HelloCordova.xcworkspace
 ```
-Xcodeでbuild, runを行い、www/js/index.jsに書かれたUDP送信スクリプトが実行され、Multicast Address 224.0.0.114に送信されます。<br>
+Xcodeでbuild, runを行うことで、www/js/index.jsに書かれたUDP送信スクリプトが実行され、Multicast Address 224.0.0.114に送信されます。<br>
 Xcode上で編集する場合はStaging-\>www-\>js-\>index.jsを編集してください。(\* cordova build iosでwww以下のフォルダがStagingフォルダにコピーされる)<br>
 #### UDP送信側(Android)
 ```
@@ -49,5 +49,5 @@ cordova plugin add https://github.com/digitalcatnip/cordova-plugin-dgram.git
 cordova build android
 ```
 Android Studioを起動し、Import Project(Gradle, Eclipse ADT, etc.)からplatforms/androidを開く<br>
-Android Studioでbuild, run<br>
+Android Studioでbuild, runすることで、www/js/index.jsに書かれたUDP送信スクリプトが実行され、Multicast Address 224.0.0.114に送信されます。<br>
 Android Studio上で編集する場合はapp-\>assets-\>www-\>js-\>index.jsを編集してください。(\* Android Studio上での編集は元のwwwフォルダ以下に反映されないので、要コピー)<br>

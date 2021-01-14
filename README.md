@@ -23,6 +23,6 @@
 UDP送信デバイス - Android 8.0.0, iOS 14.2<br>
 UDP受信デバイス - Windows 10, OSX 10.15.7<br>
 cordova 10.0.0<br>
-[cordovaのiOS開発環境の設定][linkios]
+[cordovaのiOS開発環境の設定][linkios]<br>
 [linkios]:https://cordova.apache.org/docs/en/latest/guide/platforms/ios/
 

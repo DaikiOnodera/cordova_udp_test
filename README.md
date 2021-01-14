@@ -14,9 +14,9 @@
 
 ## Contents
 
-- [Requirements] (#Requirements)
+- [Requirements](#requirements)
 - [Building sample app] (#-building-sample-app)
 - [pitfalls] (#-pitfalls)
 
-## Requirements <a name="-requirements"></a>
+## <a name="requirements"></a> Requirements
 this is sample text.
